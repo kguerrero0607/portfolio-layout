@@ -24,7 +24,7 @@ nav li {
 
 .skip:focus {
     position: relative;
-    left: -2000px;
+    left: 0px;
     border: 2px solid black;
 }
 
@@ -47,7 +47,7 @@ nav li {
     width: 15%;
 } */
 
-.profile-rotateimg90 {
+/* .profile-rotateimg90 {
   -webkit-transform:rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -55,7 +55,7 @@ nav li {
   transform: rotate(90deg);
   height: 175px;
   width: 175px;
-}
+} */
 
 .container{
     display:grid;
