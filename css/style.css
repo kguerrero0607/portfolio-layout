@@ -28,40 +28,21 @@ nav li {
     border: 2px solid black;
 }
 
-.profilepic{
-    height: 15%;
-    width: 15%;
-}
-
-.container img{
+/* .container img{
   width:100%;
-}
-
-.banner{
-    height: 150px;
-    width: 800px;
-}
-
-/* .headshot{
-    height: 15%;
-    width: 15%;
 } */
 
-/* .profile-rotateimg90 {
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  height: 175px;
-  width: 175px;
-} */
-
-.container{
+/* .container{
     display:grid;
     grid-template-columns: repeat(3, auto);
     grid-row-gap: 15px;
     grid-column-gap: 15px;
+} */
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 figcaption{
