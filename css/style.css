@@ -43,6 +43,15 @@ nav li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-content: space-around;
+}
+
+.item{
+  max-width: 225px;
+}
+
+figure{
+  border: black solid;
 }
 
 figcaption{
