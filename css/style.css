@@ -52,9 +52,11 @@ nav li {
 
 figure{
   border: black solid;
+  margin: 5px;
 }
 
 figcaption{
+  padding: 5px;
   text-align: center;
 }
 
