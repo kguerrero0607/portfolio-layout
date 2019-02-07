@@ -1,15 +1,33 @@
+
+
+.navbar{
+  display: flex;
+  /* flex-direction: column; */
+  border: 2px solid;
+  border-color: #666564;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
 nav a {
-    color:#2a70ea;
+    color:#666564;
 }
 
 .current{
-    font-style: italic;
-    color: #d10e0e;
+    font-weight: bold;
+    color: #2065a1;
 }
 
-nav li {
-    display: inline-block;
+@media only screen and (max-width: 600px){
+  .navbar{
+    flex-direction: column;
+  }
 }
+
+/* nav li {
+    display: inline-block;
+} */
 
 #content li{
     position: relative;
@@ -51,7 +69,9 @@ nav li {
 }
 
 figure{
-  border: black solid;
+  border: 2px solid;
+  border-color: #666564;
+  border-radius: 4px;
   margin: 5px;
 }
 
