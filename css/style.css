@@ -78,28 +78,6 @@ figcaption{
   font-weight: bold;
 }
 
-/* phones */
-@media only screen and (max-width: 600px){
-  .navbar{
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .navbar a{
-    text-align: center;
-    padding: 8px;
-    border: 1px solid;
-    border-color: #e3e1e3;
-  }
-
-  .item{
-    max-width: 100%;
-  }
-  .item img{
-    align-self: center;
-  }
-}
-
 footer{
   text-align: center;
   margin-top: 50px;
@@ -124,4 +102,26 @@ footer{
 .fab{
   line-height: 50px;
   display: inline-block;
+}
+
+/* phones */
+@media only screen and (max-width: 600px){
+  .navbar{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .navbar a{
+    text-align: center;
+    padding: 8px;
+    border: 1px solid;
+    border-color: #e3e1e3;
+  }
+
+  .item{
+    max-width: 100%;
+  }
+  .item img{
+    align-self: center;
+  }
 }
