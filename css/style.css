@@ -1,28 +1,22 @@
-
-
 .navbar{
   display: flex;
-  /* flex-direction: column; */
-  border: 2px solid;
-  border-color: #666564;
+  background: #2065a1;
   justify-content: space-around;
-  align-items: center;
-  padding: 20px;
 }
 
-nav a {
-    color:#666564;
+.navbar a{
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  padding: 1em;
 }
+
+/* nav a {
+    color:#666564;
+} */
 
 .current{
-    font-weight: bold;
-    color: #2065a1;
-}
-
-@media only screen and (max-width: 600px){
-  .navbar{
-    flex-direction: column;
-  }
+    font-weight: 900;
 }
 
 /* nav li {
@@ -82,4 +76,26 @@ figcaption{
 
 .proj-title{
   font-weight: bold;
+}
+
+/* phones */
+@media only screen and (max-width: 600px){
+  .navbar{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .navbar a{
+    text-align: center;
+    padding: 8px;
+    border: 1px solid;
+    border-color: #e3e1e3;
+  }
+
+  .item{
+    max-width: 100%;
+  }
+  .item img{
+    align-self: center;
+  }
 }
